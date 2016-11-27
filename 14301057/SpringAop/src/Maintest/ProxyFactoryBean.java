@@ -8,8 +8,8 @@ import dev.edu.javaee.spring.factory.XMLBeanFactory;
 import dev.edu.javaee.spring.resource.LocalFileResource;
 
 public class ProxyFactoryBean implements FactoryBean{
-	
-	//代理接口
+	//引用自
+http://wangxinchun.iteye.com/blog/2079585	//代理接口
 	private String proxyInterfaces;
 	//缓存所用
 	private Object target;
